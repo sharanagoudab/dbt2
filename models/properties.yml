@@ -1,0 +1,13 @@
+models:
+  - name: 'sharan'
+    config:
+      materialized: "table"
+
+  - name: 'sharanappaview_jinja'
+    config:
+      materialized: "table"
+
+  - name: 'ashok'
+    config:
+      materialized: "view"
+  

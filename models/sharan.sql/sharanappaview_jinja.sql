@@ -1,3 +1,3 @@
 
 
-select * from PROD_DB.PUBLIC.EMPLOYEE_DETAILS
+select * from {{source("sharans source files","EMP")}}

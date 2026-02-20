@@ -1,3 +1,21 @@
+sources:
+  - name: "sharans source files"
+    database: PROD_DB
+    schema: PUBLIC
+    tables:
+      - name: EMP
+
+  - name: "sharans source files1"
+    database: PROD_DB
+    schema: PUBLIC
+    tables:
+      - name: EMPLOYEE_DETAILS
+      - name: DIM_PAYMENTS
+
+      
+      
+
+
 models:
   - name: 'sharan'
     config:
@@ -10,4 +28,8 @@ models:
   - name: 'ashok'
     config:
       materialized: "view"
+
+  - name: 'dim_payments'
+    config:
+      materialized: "table"
   
